@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container{
+  background-color: cornsilk;
+  width: 70%;
+  margin: auto;
+  min-height: 90vh;
+  padding: 4vmax 8vmax;
+
+
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+
+}
+.container h1 {
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+
+}
+
+input , textarea , button{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.265);
+  border-radius: 1em;
+  margin: 10px 0;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: #202020;
+  color: #fff;
+  width: 10%;
+  margin: auto;
+  font-size: 1em;
+  padding: .5em;
+  border:1px solid #222222;
+
+}
+.task{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f2f9;
+  padding: 20px;
+  border-radius: .2em;
+  margin-top: 1em;
+  
+
+}
+.task div{
+  width: 100%;
+
+}
+.task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  margin: .3em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.task div p {
+  font-weight: 400;
+}
+.task div span {
+  color: #222222c9;
+  font-weight: 300;
+
+}

@@ -1,0 +1,13 @@
+
+
+nav{
+    background-color: rgb(44, 30, 242);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+nav span{
+    font-weight: 600;
+    font-style: oblique;
+}
